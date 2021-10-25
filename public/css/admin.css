@@ -1,0 +1,64 @@
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+  color: #808080;
+}
+
+.navbar-laravel {
+  background-color: ivory;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.navbar-brand {
+  color: #808080 !important;
+}
+
+.nav-link {
+  color: gray !important;
+  
+}
+
+.table-dark {
+  color: #fff;
+}
+
+.list-group-item {
+  border-color: #fff;
+  background-color: #000;
+  
+}
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.login-header {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.login-body {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+
+.wrapper{
+    min-height: 100vh;
+    position: relative;/*←相対位置*/
+    padding-bottom: 120px;/*←footerの高さ*/
+    box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
+
+footer {
+  width: 100%;
+  background-color: #f0fff0;
+  color: #778899;
+  text-align: center;
+  padding: 30px 0;
+  bottom: 0;
+}
+
+.yohaku {
+    padding: 30px;
+}

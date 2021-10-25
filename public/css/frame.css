@@ -1,0 +1,114 @@
+.yohaku {
+    padding: 30px;
+}
+
+.quiz {
+    padding: 20px;
+}
+
+.type {
+    margin: 100px 30px 20px 0px;
+    
+}
+
+.typeimage {
+    width: 700px;
+    height: 425px;
+}
+
+.frame table {
+    text-align: center;
+    margin: 80px;
+}
+
+
+.light {
+    padding: 15;
+    color: #FF9800;
+    background: #fff5e5;
+    text-align: center;
+}
+
+.summer{
+    color: #7fbfff;
+    background-color: #dbffff;
+    text-align: center;
+    padding: 15;
+}
+
+.autumn {
+    color: #cc3325;
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 15;
+}
+
+.winter {
+    color: #cccccc;
+    background-color: #330099;
+    text-align: center;
+    padding: 15;
+}
+
+.yourcolor {
+    text-align: center;
+    padding: 8px;
+    background: #ffffe0;
+    color: #ffd700;
+    
+}
+
+.yourtype {
+    margin:50px;
+    width: 300px;
+    height: 300px;
+}
+
+.colortype {
+    margin: 5px 0px 100px 0px;
+    width: 700px;
+    height: 500px;
+}
+
+.selectbox select{
+    background-color: #ffeaff;
+    border-radius:2em;
+    color: #ff7fbf;
+}
+
+.count {
+    margin: 30 0;
+    padding: 0 60;
+}
+
+.result th{
+    background-color: #ffd6ea;
+}
+
+.result td, .result th {
+    font-family: 'AcademyEngravedLetPlain',fantasy;
+    padding: 20 60;
+    font-size: 50;
+    border: 1px solid gray
+}
+
+.buttonnext {
+  border-radius: 50vh;
+  padding: 30;
+  font-size: 20;
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
+  background-color: #ffe5e5;
+}
+
+.buttonnext:hover {
+    background-color: #e5fff2;
+}
+
+.color:hover {
+ text-decoration: none;
+}
+
+.colortable {
+    font-size: 12px;
+    margin: 60 60 100 50;
+}

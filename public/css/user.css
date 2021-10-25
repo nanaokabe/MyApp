@@ -1,0 +1,149 @@
+table .top {
+   margin: 0;
+}
+ 
+.postimage {
+    display: inline-block;
+}
+
+a.btn_06 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+  box-sizing: border-box;
+  background: repeating-linear-gradient(45deg, #ffffff, #ffffff 3px, #e7e7e7 3px, #e7e7e7 30px);
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  position: relative;
+  margin: 15px 0 30px;
+}
+a.btn_06 span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  transition-duration: 0.2s;
+}
+a.btn_06:hover span {
+  left: -1px;
+  top: -1px;
+}
+
+.hover {
+  font-family: 'TsukuARdGothic-Regular',monospace;
+  background-color: white;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.hover:hover {
+  background-color: #dbffff;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+input[type="text"] { width: 30em; }
+
+
+.replay {
+  font-family: 'TsukuARdGothic-Regular',monospace;
+  
+}
+
+.brandname {
+  font-size: 20; 
+}
+
+.icon {
+  border-radius: 50%;
+  float: right;
+}
+
+.date {
+  font-family: cursive;
+  color: #c5c5c5;
+}
+
+.heart {
+  width: 50px;  /* 正方形を作る */
+  height: 50px; /* 正方形を作る */
+  position: relative;/* 基準位置とする */
+}
+.heart::before,
+.heart::after {
+  content: "";  /* 疑似要素に必須 */
+  width: 50%;   /* ハートの丸い部分の大きさにかかわる */
+  height: 80%;  /* ハートの高さにかかわる */
+  background: #ffd6ea; /* ハートの色 */
+  border-radius: 25px 25px 0 0; /* ハートの半円を生成 */
+  display: block; /* ブロック要素にする */
+  position: absolute; /* 相対位置に指定 */
+}
+.heart::before {
+  transform: rotate(-45deg); /* 左に回転 */
+  left: 14%;                 /* 左からの位置を指定 */
+}
+.heart::after {
+  transform: rotate(45deg);  /* 右に回転 */
+  right: 14%;                /* 右からの位置を指定 */
+}
+
+.heart2 {
+  width: 50px;  /* 正方形を作る */
+  height: 50px; /* 正方形を作る */
+  position: relative;/* 基準位置とする */
+}
+.heart2::before,
+.heart2::after {
+  content: "";  /* 疑似要素に必須 */
+  width: 50%;   /* ハートの丸い部分の大きさにかかわる */
+  height: 80%;  /* ハートの高さにかかわる */
+  background: #ff9393; /* ハートの色 */
+  border-radius: 25px 25px 0 0; /* ハートの半円を生成 */
+  display: block; /* ブロック要素にする */
+  position: absolute; /* 相対位置に指定 */
+}
+.heart2::before {
+  transform: rotate(-45deg); /* 左に回転 */
+  left: 14%;                 /* 左からの位置を指定 */
+}
+.heart2::after {
+  transform: rotate(45deg);  /* 右に回転 */
+  right: 14%;                /* 右からの位置を指定 */
+}
+
+
+.goodform {
+  display: inline-block;
+}
+
+
+
+.clear-decoration {
+    border: none;  /* 枠線を消す */
+    outline: none; /* クリックしたときに表示される枠線を消す */
+    background: transparent; /* 背景の灰色を消す */
+}
+
+.cordecomments {
+  margin: 5px;
+}
+
+.usericon {
+  float: left;
+}
+
+.return {
+  margin: 50px 0 0 0;
+}
