@@ -79,7 +79,7 @@
 					</div>
 						
 						<div class="col-md-4 offset-md-2">
-							<a href="color/spring" name="color" class="color"><button type="button" class="buttonnext">Next 詳細を見る</a></button>
+							<a href="color/spring" name="color" class="color"><button type="button" class="buttonnext">▶︎　Next 詳細を見る</a></button>
 						</div>
 							
 							
@@ -89,7 +89,7 @@
 								<img src="{{ asset('images/summer.PNG') }}" alt="summer.png" class="typeimage">
 								</div>
 									<div class="col-md-4 offset-md-2">
-									<a href="color/summer" class="color"><button type="button" class="buttonnext">Next 詳細を見る</a></button>
+									<a href="color/summer" class="color"><button type="button" class="buttonnext">▶︎　Next 詳細を見る</a></button>
 									</div>
 									
 										<div class="type">
@@ -98,7 +98,7 @@
 										<img src="{{ asset('images/autumn.PNG') }}" alt="autumn.png" class="typeimage">
 										</div>
 											<div class="col-md-4 offset-md-2">
-											<a href="color/autumn" class="color"><button type="button" class="buttonnext">Next 詳細を見る</a></button>
+											<a href="color/autumn" class="color"><button type="button" class="buttonnext">▶︎　Next 詳細を見る</a></button>
 											</div>
 											
 												<div class="type">
@@ -107,7 +107,7 @@
 												<img src="{{ asset('images/winter.PNG') }}" alt="winter.png" class="typeimage">
 												</div>
 												<div class="col-md-4 offset-md-2">
-												<a href="color/winter" class="color"><button type="button" class="buttonnext">Next 詳細を見る</a></button>
+												<a href="color/winter" class="color"><button type="button" class="buttonnext">▶︎　Next 詳細を見る</a></button>
 												</div>
 											
 			</div>

@@ -76,8 +76,8 @@ class UserController extends Controller
         
          // formに画像があれば、保存する
       if (isset($form['image'])) {
-        $path = $request->file('image')->store('public/images');
-        $posts->image_path = basename($path);
+          $path = Storage::disk('s3')->putFile('/',$form['image'],'public');
+        $posts->image_path = Storage::disk('s3')->url($path);
       } else {
           $posts->image_path = null;
       }
@@ -121,6 +121,7 @@ class UserController extends Controller
     public function showedit()
     {
         return view('users.edit')
+        
              ->with('auth', Auth::user());
     }
 
@@ -142,8 +143,9 @@ class UserController extends Controller
         
      // formに画像があれば、保存する
       if (isset($form['image'])) {
-        $path = $request->file('image')->store('public/images');
-        $auths->image_path = basename($path);
+        $path = Storage::disk('s3')->putFile('/',$form['image'],'public');
+        $auths->image_path = Storage::disk('s3')->url($path);
+      
       } else {
           $auths->image_path = null;
       }        

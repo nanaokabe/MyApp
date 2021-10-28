@@ -11,15 +11,15 @@
         <p>{{ $troubles->created_at }}</p>
       
           @if(isset($troubles->image_path01))
-          <img name="image" width="200" height="180" src="{{ secure_asset('/storage/images/' . $troubles->image_path01) }}">
+          <img name="image" width="200" height="180" src="{{ secure_asset($troubles->image_path01) }}">
           @endif
           
           @if(isset($troubles->image_path02)) 
-          <img name="image" width="200" height="180" src="{{ secure_asset('/storage/images/' . $troubles->image_path02) }}">
+          <img name="image" width="200" height="180" src="{{ secure_asset($troubles->image_path02) }}">
           @endif
           
           @if(isset($troubles->image_path03)) 
-          <img name="image" width="200" height="180" src="{{ secure_asset('/storage/images/' . $troubles->image_path03) }}">
+          <img name="image" width="200" height="180" src="{{ secure_asset($troubles->image_path03) }}">
           @endif
     </div>
           
@@ -43,7 +43,7 @@
                   @foreach($troubles->comments as $comment)
                      <div class="col-md-9 offset-md-3">
                          <div class="cordecomments"> 
-                          <img height="30px" width="30px" class="usericon" src="{{ '/storage/images/' . $comment->user->image_path }}" alt="{{ $comment->user->nickname }}" />
+                          <img height="30px" width="30px" class="usericon" src="{{$comment->user->image_path }}" alt="{{ $comment->user->nickname }}" />
                             {{ $comment->user->nickname }}
                             {{ $comment->comment }}
                         </div>

@@ -22,7 +22,7 @@
             <tr>
               <td>
                 <a href="news">
-                 <img width="300" height="150" src="{{ secure_asset('storage/images/' . $news->image_path) }}">
+                 <img width="300" height="150" src="{{ secure_asset($news->image_path) }}">
               </td>
             </tr>
             <tr>
@@ -51,10 +51,10 @@
                       
                  <div class="col-md-12">今日のコーデ</div>
                       @foreach($corde as $post)
-                        <div class="col-md-3 offset-md-1">
+                        <div class="col-md-4">
                             <p class="cordinateimage">
                               <a href="{{ url('/corde/' . $post->id) }}">
-                              <img name="image" width="300" height="350" src="{{ secure_asset('/storage/images/' . $post->image_path) }}">
+                              <img name="image" width="300" height="350" src="{{ secure_asset($post->image_path) }}">
                               </a>
                             </p>
                         </div>

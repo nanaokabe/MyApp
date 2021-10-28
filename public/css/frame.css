@@ -12,8 +12,8 @@
 }
 
 .typeimage {
-    width: 700px;
-    height: 425px;
+    width: 800px;
+    height: 450px;
 }
 
 .frame table {
@@ -93,15 +93,15 @@
 }
 
 .buttonnext {
-  border-radius: 50vh;
-  padding: 30;
+
+  padding: 10;
   font-size: 20;
   font-family: 'TsukuARdGothic-Regular',sans-serif;
-  background-color: #ffe5e5;
+  background-color: #fff;
 }
 
 .buttonnext:hover {
-    background-color: #e5fff2;
+    background-color: #bbdbf3;
 }
 
 .color:hover {

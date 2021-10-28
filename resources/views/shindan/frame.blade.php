@@ -90,29 +90,29 @@
                   <div class="type">
                   	<h1 id="sttype">診断結果・・・</h1>
                     <h1>あなたは「骨格ストレートタイプ」です！</h1>
-                    <img src="{{ asset('images/straight.PNG') }}" alt="straight.png" class="typeimage">
+                    <img src="{{ asset('images/straight.jpg') }}" alt="straight" class="typeimage">
                   </div>
                   
-                  <button type="button" class="buttonnext">
-                    <a href="color" class="color">Next パーソナルカラー診断をする</a></button>
+                  <button type="button" class="buttonnext offset-md-2">
+                    <a href="color" class="color">▶︎　Next パーソナルカラー診断をする</a></button>
               
                 
                   <div class="type">
                   	<h1 id="watype">診断結果・・・</h1>
                     <h1>あなたは「骨格ウェーブタイプ」です！</h1>
-                    <img src="{{ asset('images/wave.PNG') }}" alt="wave.png" class="typeimage">
+                    <img src="{{ asset('images/wave.jpg') }}" alt="wave" class="typeimage">
                   </div>
-                     <button type="button" class="buttonnext">
-                       <a href="color" class="color">Next パーソナルカラー診断をする</a></button>
+                     <button type="button" class="buttonnext offset-md-2">
+                       <a href="color" class="color">▶︎　 Next パーソナルカラー診断をする</a></button>
                   
                   <div class="type">
                      <h1 id="nttype">診断結果・・・</h1>
                      <h1>あなたは「骨格ナチュラルタイプ」です！</h1>
-                     <img src="{{ asset('images/natural.PNG') }}" alt="natural.png" class="typeimage">
+                     <img src="{{ asset('images/natural.jpg') }}" alt="natural" class="typeimage">
                   </div>
                       
-                      <button type="button" class="buttonnext">
-                        <a href="color" class="color">Next パーソナルカラー診断をする</a>
+                      <button type="button" class="buttonnext offset-md-2">
+                        <a href="color" class="color">▶︎　Next パーソナルカラー診断をする</a>
                       </button>
                       
               

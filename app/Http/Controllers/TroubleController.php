@@ -59,9 +59,18 @@ class TroubleController extends Controller
         if (isset($form['image'])) {
             $i = 1;
             foreach($form['image'] as $image) {
-              $path = $image->store('public/images');
-              $troubles->setAttribute("image_path0" . $i, basename($path));
+
+        
+        $path = Storage::disk('s3')->putFile('/',$image,'public');
+              $troubles->setAttribute("image_path0" . $i, Storage::disk('s3')->url($path));
               $i++;
+        
+        
+        
+              /*$path = $image->store('public/images');
+              $troubles->setAttribute("image_path0" . $i, basename($path));
+              $i++;*/
+              
             } 
         } else {
             $troubles->image_path01 = $troubles->image_path02 = $troubles->image_path03 = null;

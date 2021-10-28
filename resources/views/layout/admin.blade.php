@@ -56,9 +56,9 @@
                         @else
                         <a href="{{ url( '/user' ) }}">
                             @if(isset($auths->image_path))
-                              <img height="30px" width="30px" class="icon" src="{{ '/storage/images/' . $auths->image_path }}" alt="{{ $auths->nickname }}" />
+                              <img height="30px" width="30px" class="icon" src="{{ $auths->image_path }}" alt="{{ $auths->nickname }}" />
                               @else
-                              <img height="30px" width="30px" class="icon" src="{{ asset('/storage/images/guest.jpeg') }}" alt="no image">
+                              <img height="30px" width="30px" class="icon" src="{{ asset('images/guest.jpeg') }}" alt="no image">
                               @endif
                             </div>
                         </a>

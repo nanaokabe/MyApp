@@ -12,7 +12,7 @@
     <div class="col-md-3 offset-md-1">
           @foreach ($cordinates as $corde)
           <a href="{{ url('/corde/' . $corde->id) }}">
-           <img name="image" width="300" height="350" src="{{ secure_asset('/storage/images/' . $corde->image_path) }}">
+           <img name="image" width="300" height="350" src="{{ secure_asset( $corde->image_path) }}">
           </a>
           @endforeach
     </div>

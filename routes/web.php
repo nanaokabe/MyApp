@@ -19,12 +19,12 @@ Route::get('/home', 'User\UserController@index');
 {*/
     Route::get('main', 'MainController@index');
     
-    Route::get('admin', 'Admin\MainController@top');
-    
-    Route::get('admin/news', 'Admin\MainController@index');
-    Route::get('admin/news/create', 'Admin\MainController@create');
-    Route::post('admin/news/posts', 'Admin\MainController@store');
-    Route::get('news', 'MainController@news');
+    Route::get('admin', 'Admin\MainController@top');//管理人版ニュース一覧の表示
+    Route::get('admin/news/create', 'Admin\MainController@create');//ニュースの新規作成画面の表示
+    Route::post('admin/news/posts', 'Admin\MainController@store');//ニュースの投稿を保存アクション
+    Route::get('admin/news/edit', 'Admin\MainController@edit');//ニュースの編集の画面の表示
+    Route::post('admin/news/edit', 'Admin\MainController@update');//ニュースの編集を保存アクション
+    Route::get('news', 'MainController@news');//ユーザーからのニュース表示画面
 
     
     Route::get('frame', 'MainController@frame')->middleware('auth');

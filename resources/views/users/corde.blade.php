@@ -11,7 +11,7 @@
         </div>
             <div class="col-md-9 offset-md-3">
               <div class="postimage">
-                <img width="500px" height="600px" src="{{ secure_asset('storage/images/' . $posts->image_path) }}"></a>
+                <img width="500px" height="600px" src="{{ secure_asset($posts->image_path) }}"></a>
               </div>
             </div>
             
@@ -78,7 +78,7 @@
                   @foreach($posts->comments as $comment)
                      <div class="col-md-9 offset-md-3">
                          <div class="cordecomments"> 
-                          <img height="30px" width="30px" class="usericon" src="{{ '/storage/images/' . $comment->user->image_path }}" alt="{{ $comment->user->nickname }}" />
+                          <img height="30px" width="30px" class="usericon" src="{{  $comment->user->image_path }}" alt="{{ $comment->user->nickname }}" />
                             {{ $comment->user->nickname }}
                             {{ $comment->comment }}
                         </div>

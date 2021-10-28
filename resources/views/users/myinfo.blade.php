@@ -41,7 +41,7 @@
                  
           @foreach($auths->posts as $post)
           <a href="{{ url('/corde/' . $post->id) }}">
-          <img name="image" width="320" height="300" src="{{ secure_asset('/storage/images/' . $post->image_path) }}">
+          <img name="image" width="320" height="300" src="{{ secure_asset($post->image_path) }}">
           </a>
           @endforeach
           

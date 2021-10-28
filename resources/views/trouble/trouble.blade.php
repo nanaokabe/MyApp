@@ -13,7 +13,7 @@
             <div class="col-md-9 offset-md-3">
               <a href="{{ url('/trouble/index/' . $trouble->id ) }}">
                 <div class="troubletable">
-                   <img height="30px" width="30px" class="usericon" src="{{ '/storage/images/' . $auths->image_path }}" alt="{{ $auths->nickname }}" />
+                   <img height="30px" width="30px" class="usericon" src="{{$auths->image_path }}" alt="{{ $auths->nickname }}" />
                       <div>{{ $auths->nickname }}<span>：</span><span>{{ $auths->frametype }}</span>
                       </div>
                      <p>{{ $trouble->body }}</p>
